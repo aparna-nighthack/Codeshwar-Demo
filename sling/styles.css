@@ -1,5 +1,3 @@
-
-/* General Styles */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
@@ -80,6 +78,50 @@ nav a {
     color: #666;
 }
 
+/* Dropdown List Styling */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* Company Description Styling */
+.company-description {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Testimonial Section */
+.testimonials {
+    padding: 20px 0;
+    background-color: #eee;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #333;
+}
+
+.testimonials p {
+    color: #666;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+}
+
 /* Contact Form Section */
 .contact {
     padding: 20px 0;
@@ -145,5 +187,10 @@ footer a {
 
     .featured .pizza {
         width: 100%;
+    }
+
+    .dropdown select, .testimonials p, .company-description {
+        width: 90%;
+        margin: auto;
     }
 }
