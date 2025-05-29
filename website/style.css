@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 10px 0;
+  color: #222;
+}
+
+p {
+  line-height: 1.6;
+  padding: 0 0 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+button, .button {
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #e63946;
+  color: #fff;
+  margin: 10px 0;
+  transition: background 0.3s;
+}
+
+button:hover, .button:hover {
+  background: #d62839;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://imgmediagumlet.lbb.in/media/2020/11/5fa17943d511fc4b649fcfc2_1604417859096.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.order-now {
+  margin-top: 20px;
+}
+
+/* About Us Section */
+.about {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 50px 0;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  position: relative;
+  width: calc(25% - 20px);
+  overflow: hidden;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.gallery-item img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item .name {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.gallery-item:hover .name {
+  opacity: 1;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.testimonial {
+  max-width: 500px;
+  margin: 10px auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.testimonial span {
+  color: #e39e54;
+  font-size: 1.2em;
+}
+
+/* Delivery & Locations */
+.delivery-locations {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.delivery-dropdown {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/* Contact & Order Form */
+.contact-form {
+  padding: 50px 0;
+  background: #f4f4f9;
+}
+
+.contact-form form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea, .contact-form select {
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+footer .social-icons {
+  margin: 10px 0;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #e63946;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .gallery-item {
+    width: calc(100% - 20px);
+  }
+}

@@ -1,0 +1,53 @@
+    {
+        "name": "Spicy Pepperoni Blast",
+        "image_url": "https://curlytales.com/wp-content/uploads/2019/09/pizza-feature.jpg",
+        "ingredients": [
+            "Pepperoni",
+            "Mozzarella",
+            "Jalapeños",
+            "Tomato Sauce",
+            "Oregano"
+        ],
+        "price": 399,
+        "hover_effect": "Spicy Pepperoni Blast"
+    },
+    {
+        "name": "Truffle Mushroom Delight",
+        "image_url": "https://bhukkadcompany.com/wp/wp-content/uploads/2024/06/21-Best-Pizzas-in-Mumbai-You-Must-Try-A-Pizza-Lovers-Paradise-1-710x473.png",
+        "ingredients": [
+            "Wild Mushrooms",
+            "Truffle Oil",
+            "Ricotta",
+            "Arugula",
+            "Parmesan"
+        ],
+        "price": 599,
+        "hover_effect": "Truffle Mushroom Delight"
+    },
+    {
+        "name": "Chicago Deep Dish",
+        "image_url": "https://content.jdmagicbox.com/comp/def_content/pizza_outlets/default-pizza-outlets-13.jpg",
+        "ingredients": [
+            "Buttery Crust",
+            "Thick Tomato Sauce",
+            "Bell Peppers",
+            "Onions",
+            "Extra Cheese"
+        ],
+        "price": 699,
+        "hover_effect": "Chicago Deep Dish"
+    },
+    {
+        "name": "Italian Classic",
+        "image_url": "https://imgmediagumlet.lbb.in/media/2023/08/64e853b840d6b86d20757e36_1692947384757.jpg",
+        "ingredients": [
+            "Prosciutto",
+            "Artichokes",
+            "Olives",
+            "Sun-dried Tomatoes",
+            "Basil"
+        ],
+        "price": 499,
+        "hover_effect": "Italian Classic"
+    }
+]
