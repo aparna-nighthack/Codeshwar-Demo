@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Order - Sling Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact & Order</h1>
+    </header>
+
+    <main>
+        <section id="order-form">
+            <form id="contactOrderForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pizza">Select Pizza:</label>
+                    <select id="pizza" name="pizza" required>
+                        <option value="margherita">Margherita</option>
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="veggie">Veggie</option>
+                        <option value="spicy-pepperoni-blast">Spicy Pepperoni Blast</option>
+                        <option value="truffle-mushroom-delight">Truffle Mushroom Delight</option>
+                        <option value="chicago-deep-dish">Chicago Deep Dish</option>
+                        <option value="italian-classic">Italian Classic</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="delivery-area">Delivery Area:</label>
+                    <select id="delivery-area" name="delivery-area" required>
+                        <option value="mumbai">Mumbai (All Zones)</option>
+                        <option value="delhi">Delhi (North & South)</option>
+                        <option value="bangalore">Bangalore (Central & East)</option>
+                        <option value="hyderabad">Hyderabad (Gachibowli & Hitech City)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="delivery-address">Delivery Address:</label>
+                    <input type="text" id="delivery-address" name="delivery-address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="instructions">Special Instructions:</label>
+                    <textarea id="instructions" name="instructions" rows="4"></textarea>
+                </div>
+
+                <button type="submit" id="place-order-btn">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Address: 123 Pizza Lane, Food City</p>
+        <p>Contact: Phone: +91 XXXX-XXXX | Email: <a href="mailto:hello@slingpizza.com">hello@slingpizza.com</a></p>
+        <div class="social-media">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Swiggy</a>
+            <a href="#">Zomato</a>
+        </div>
+        <p>© 2024 Sling Pizza. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
