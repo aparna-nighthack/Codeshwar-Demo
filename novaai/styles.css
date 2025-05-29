@@ -1,0 +1,224 @@
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/ai-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 100px 20px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.hero p {
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.cta-buttons a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons a:hover {
+    background-color: #0056b3;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-us p {
+    margin-top: 20px;
+}
+
+/* Capabilities Showcase */
+.capabilities {
+    padding: 50px 20px;
+}
+
+.capability-card {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.capability-card:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+}
+
+.capability-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.capability-card p {
+    margin-bottom: 10px;
+}
+
+.capability-card .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.capability-card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.capability-card a:hover {
+    background-color: #0056b3;
+}
+
+/* Testimonials Carousel */
+.testimonials {
+    padding: 50px 20px;
+}
+
+.testimonial-item {
+    display: none;
+}
+
+.testimonial-item.active {
+    display: block;
+}
+
+.testimonial-item p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-item .author {
+    font-weight: bold;
+}
+
+/* Integration & Deployment */
+.integration {
+    padding: 50px 20px;
+}
+
+.integration select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.integration-note {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 50px 20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}

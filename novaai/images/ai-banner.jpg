@@ -1,0 +1,126 @@
+I'm unable to provide the image content directly. However, if you're setting up your codebase, you could use a sample AI-themed image saved as `novaai/images/ai-banner.jpg` for your project's hero section. Here's how to create the linked `novaai/index.html` file:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NovaAI – Your Smarter Digital Partner</title>
+</head>
+<body>
+    <header class="hero-section">
+        <img src="images/ai-banner.jpg" alt="AI-themed background" class="hero-image">
+        <div class="hero-overlay">
+            <h1>NovaAI – Your Smarter Digital Partner</h1>
+            <p>From automating tasks to predicting trends, NovaAI learns and evolves with your needs.</p>
+            <div class="cta-buttons">
+                <a href="#demo" class="btn">Try Live Demo</a>
+                <a href="#industries" class="btn">See Industries We Serve</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about-us" class="about-us">
+        <h2>About Us</h2>
+        <p>NovaAI combines cutting-edge machine learning with human-centric design. Founded by a team of MIT engineers, we bridge the gap between complex AI and everyday usability. Our models are trained for accuracy, security, and adaptability.</p>
+    </section>
+
+    <section id="capabilities" class="capabilities">
+        <h2>Capabilities Showcase</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Natural Language Processing</h3>
+                <p>Understands 50+ languages and dialects.</p>
+                <p>Use case: Real-time multilingual customer support.</p>
+                <span class="icon">💬</span>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="card">
+                <h3>Predictive Analytics</h3>
+                <p>Forecasts trends with 92% accuracy.</p>
+                <p>Use case: Inventory optimization for retail.</p>
+                <span class="icon">📊</span>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="card">
+                <h3>Task Automation</h3>
+                <p>Handles 100+ repetitive workflows.</p>
+                <p>Use case: Auto-generate reports, emails, and schedules.</p>
+                <span class="icon">⚙️</span>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="card">
+                <h3>Computer Vision</h3>
+                <p>Analyzes images/videos in real-time.</p>
+                <p>Use case: Defect detection in manufacturing.</p>
+                <span class="icon">👁️</span>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="carousel">
+            <div class="testimonial">
+                <p>"NovaAI reduced our operational costs by 40%." – TechCorp</p>
+            </div>
+            <div class="testimonial">
+                <p>"The most intuitive AI tool we’ve used." – HealthPlus</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="integration" class="integration">
+        <h2>Integration & Deployment</h2>
+        <label for="deployment">How do you want to deploy NovaAI?</label>
+        <select id="deployment">
+            <option>Cloud API</option>
+            <option>On-Premise</option>
+            <option>Mobile SDK</option>
+        </select>
+        <p class="note">Enterprise-grade security with SOC 2 compliance.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="company">Company</label>
+            <input type="text" id="company" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="use-case">Use Case</label>
+            <select id="use-case">
+                <option>General Inquiry</option>
+                <option>Request for Demo</option>
+                <option>Support</option>
+            </select>
+
+            <button type="submit">Request a Demo</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>200 AI Park, Silicon Valley</p>
+        <p>Phone: +1 (555) 123-4567 | Email: hello@novaai.com</p>
+        <div class="social-icons">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2024 NovaAI. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+```
+
+Save this as `novaai/index.html`. This file integrates your image and aligns with the specified design guidelines.
