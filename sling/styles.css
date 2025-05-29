@@ -1,0 +1,149 @@
+
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #e31837;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background-image: url("https://imgmediagumlet.lbb.in/media/2020/11/5fa17943d511fc4b649fcfc2_1604417859096.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Featured Pizza Section */
+.featured {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #333;
+}
+
+.featured .pizza {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    vertical-align: top;
+}
+
+.featured img {
+    border-radius: 10px;
+}
+
+.featured p {
+    color: #666;
+}
+
+/* Contact Form Section */
+.contact {
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"] {
+    background-color: #e31837;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #d11732;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .featured .pizza {
+        width: 100%;
+    }
+}
