@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://imgmediagumlet.lbb.in/media/2020/11/5fa17943d511fc4b649fcfc2_1604417859096.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero .order-now {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .order-now:hover {
+    background-color: #e65c00;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.gallery .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: calc(33.333% - 20px);
+    overflow: hidden;
+}
+
+.gallery .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery .card-content {
+    padding: 15px;
+    text-align: left;
+}
+
+.gallery .card:hover {
+    transform: translateY(-10px);
+}
+
+.gallery .card h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.gallery .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.gallery .card li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.gallery .card .price {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.testimonials .carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonials .carousel-item {
+    flex: 1 0 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.testimonials .carousel-item.active {
+    opacity: 1;
+}
+
+.testimonials p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.testimonials .stars {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.testimonials .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.testimonials button {
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.testimonials button:hover {
+    background-color: #e65c00;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer .copyright {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .gallery .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery .card {
+        width: 100%;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
