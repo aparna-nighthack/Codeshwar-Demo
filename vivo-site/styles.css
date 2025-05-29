@@ -1,0 +1,233 @@
+
+/* Importing sleek and elegant fonts for the website */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0b4f90;
+    background-image: url('https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1747038695532/5f3c0635fdd4f07b5bdbf752c2a56215.jpg');
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0b4f90;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-section .button-group {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #008ccd;
+}
+
+.products-section {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    color: #0b4f90;
+}
+
+.product-card p {
+    padding: 0 10px;
+    color: #666;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px 0;
+}
+
+.carousel img {
+    max-width: 100%;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.testimonials {
+    background-color: #f0f8ff;
+    padding: 40px 20px;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial .author {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0b4f90;
+}
+
+.contact-form {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    background-color: #0b4f90;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0073aa;
+}
+
+footer {
+    background-color: #0b4f90;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.newsletter {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.newsletter button {
+    background-color: #0b4f90;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #008ccd;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 20px;
+    }
+}
