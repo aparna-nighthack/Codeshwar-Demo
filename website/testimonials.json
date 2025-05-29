@@ -1,0 +1,16 @@
+    {
+        "name": "John Doe",
+        "quote": "These shoes are incredibly comfortable and stylish!",
+        "image": "https://images.pexels.com/photos/6878178/pexels-photo-6878178.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+        "name": "Jane Smith",
+        "quote": "I love the quality and design of these shoes. Highly recommended!",
+        "image": "https://images.pexels.com/photos/5710075/pexels-photo-5710075.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+        "name": "Michael Johnson",
+        "quote": "Best purchase I've made in a long time. These shoes are perfect for any occasion.",
+        "image": "https://images.pexels.com/photos/1456705/pexels-photo-1456705.jpeg?auto=compress&cs=tinysrgb&h=350"
+    }
+]
