@@ -1,0 +1,53 @@
+    {
+        "name": "Spicy Pepperoni Blast",
+        "type": "Non-Veg",
+        "ingredients": [
+            "Pepperoni",
+            "Mozzarella",
+            "Jalapeños",
+            "Tomato Sauce",
+            "Oregano"
+        ],
+        "price": "₹399",
+        "image": "https://curlytales.com/wp-content/uploads/2019/09/pizza-feature.jpg"
+    },
+    {
+        "name": "Truffle Mushroom Delight",
+        "type": "Veg",
+        "ingredients": [
+            "Wild Mushrooms",
+            "Truffle Oil",
+            "Ricotta",
+            "Arugula",
+            "Parmesan"
+        ],
+        "price": "₹599",
+        "image": "https://bhukkadcompany.com/wp/wp-content/uploads/2024/06/21-Best-Pizzas-in-Mumbai-You-Must-Try-A-Pizza-Lovers-Paradise-1-710x473.png"
+    },
+    {
+        "name": "Chicago Deep Dish",
+        "type": "Veg",
+        "ingredients": [
+            "Buttery Crust",
+            "Thick Tomato Sauce",
+            "Bell Peppers",
+            "Onions",
+            "Extra Cheese"
+        ],
+        "price": "₹699",
+        "image": "https://content.jdmagicbox.com/comp/def_content/pizza_outlets/default-pizza-outlets-13.jpg"
+    },
+    {
+        "name": "Italian Classic",
+        "type": "Non-Veg",
+        "ingredients": [
+            "Prosciutto",
+            "Artichokes",
+            "Olives",
+            "Sun-dried Tomatoes",
+            "Basil"
+        ],
+        "price": "₹499",
+        "image": "https://imgmediagumlet.lbb.in/media/2023/08/64e853b840d6b86d20757e36_1692947384757.jpg"
+    }
+]
