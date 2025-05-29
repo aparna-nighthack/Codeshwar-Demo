@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Tourism Travels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admin Panel - Tourism Travels</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#bookings">Manage Bookings</a></li>
+            <li><a href="#content">Manage Content</a></li>
+            <li><a href="#queries">Manage Queries</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#accounts">User Accounts</a></li>
+        </ul>
+    </nav>
+    <section id="bookings">
+        <h2>Manage Bookings</h2>
+        <form>
+            <!-- Form for managing bookings -->
+            <label for="booking-id">Booking ID:</label>
+            <input type="text" id="booking-id" name="booking-id" required>
+            <button type="submit">Search Booking</button>
+        </form>
+        <!-- Booking details and management actions -->
+    </section>
+    <section id="content">
+        <h2>Manage Content</h2>
+        <form>
+            <!-- Form for updating content -->
+            <label for="content-title">Content Title:</label>
+            <input type="text" id="content-title" name="content-title" required>
+            <button type="submit">Update Content</button>
+        </form>
+        <!-- Content management options -->
+    </section>
+    <section id="queries">
+        <h2>Manage User Queries</h2>
+        <form>
+            <!-- Form for handling user queries -->
+            <label for="query-id">Query ID:</label>
+            <input type="text" id="query-id" name="query-id" required>
+            <button type="submit">Search Query</button>
+        </form>
+        <!-- Query management options -->
+    </section>
+    <section id="newsletter">
+        <h2>Newsletter Management</h2>
+        <form>
+            <!-- Form for managing newsletter subscriptions -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Add Subscriber</button>
+        </form>
+        <!-- Subscription management options -->
+    </section>
+    <section id="accounts">
+        <h2>User Accounts</h2>
+        <form>
+            <!-- Form for managing user accounts -->
+            <label for="user-id">User ID:</label>
+            <input type="text" id="user-id" name="user-id" required>
+            <button type="submit">Search User</button>
+        </form>
+        <!-- User account management options -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Tourism Travels. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
