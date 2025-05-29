@@ -1,59 +1,69 @@
 
-Welcome to Sling Pizza, where we serve delicious pizzas with an exceptional online experience. This document provides a comprehensive guide to the Sling Pizza website, detailing the project structure, development setup, and deployment instructions.
+## Overview
 
-## Website Structure
+This project is a simplified Instagram clone featuring a scrollable feed for posts (images/videos), user profiles, likes/comments functionality, and a clean UI inspired by Instagram's modern design. It includes sections for stories and a discovery tab.
 
-The Sling Pizza website is structured into several key sections:
+## Project Structure
 
-- **Header**: Contains the site logo and navigation links (Home, Menu, Contact).
-- **Hero Section**: Features a welcome message and a captivating main banner image.
-- **Featured Pizzas**: Showcases our special pizza offerings with enticing images and descriptions.
-- **Contact Section**: Includes a form for users to reach out for orders and inquiries.
-- **Footer**: Lists site information and social media links to enhance user engagement.
+- **client/index.html**: Main HTML file with the structure and layout of the application.
+- **client/styles/main.css**: Stylesheet for the application, implementing a clean and modern UI.
+- **client/scripts/main.js**: JavaScript for handling dynamic behavior, fetching and displaying posts, stories, and the discovery tab.
+- **server/app.js**: Express server handling requests and serving data.
+- **server/routes/posts.js**: API endpoints for post-related operations, including fetching and updating likes/comments.
+- **server/routes/users.js**: API endpoints for user-related operations, including fetching profiles and stories.
+- **server/data/mockData.js**: Mock data simulating a database for users and posts.
 
-The files associated with these sections are described below.
+## Prerequisites
 
-## Files and Their Purposes
+Before you begin, ensure you have the following installed:
 
-- **sling/index.html**: The main HTML file structuring the website content. It links to other resources like stylesheets and scripts.
-- **sling/styles.css**: Contains all styling for the website, ensuring a modern look with a responsive design suitable for a pizza brand.
-- **sling/contact.js**: Handles form submissions in the contact section, providing validation and user feedback.
-- **sling/images/info.txt**: Serves as a placeholder for storing future images related to the website.
+- Node.js
+- npm (Node Package Manager)
 
-## Setting Up a Local Development Environment
+## Setup Instructions
 
-To set up a local development environment for the Sling Pizza website:
+### Cloning the Repository
 
-1. **Clone the Repository**: 
-   ```bash
-   git clone <repository-url>
-   ```
-   
-2. **Navigate to Project Directory**:
-   ```bash
-   cd <project-directory>
-   ```
+```bash
+git clone <repository_url>
+cd <repository_directory>
+```
 
-3. **Open in a Code Editor**: Use your preferred code editor to open the project.
+### Installing Dependencies
 
-4. **Run a Local Server**: Use a tool like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode or any local server tool to view the website in a browser.
+- Navigate to the root directory of the project:
+  ```bash
+  cd server
+  npm install
+  ```
 
-## Deployment
+  This will install all server-side dependencies.
 
-To deploy the Sling Pizza website, follow these steps:
+### Running the Server
 
-1. **Build Assets**: Ensure all the assets (HTML, CSS, JS, and images) are ready and optimized for production.
-   
-2. **Choose Hosting Provider**: Select a web hosting provider that suits your needs (e.g., Netlify, Vercel, GitHub Pages).
+- Start the server:
+  ```bash
+  node app.js
+  ```
 
-3. **Deploy the Site**: Follow the hosting provider's instructions to deploy the site. Typically, this involves pushing the site files to a repository or uploading them directly to the host.
+  The server will run at `http://localhost:3000`.
 
-## Contributing
+### Running the Client
 
-We welcome contributions to the Sling Pizza website. Please fork the repository and submit a pull request with a detailed description of your changes.
+- Simply open `client/index.html` in a browser. This client will interact with the running server to fetch and display data.
 
-## License
+## Command Examples
 
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
+Navigate to `server` folder and use the following command to start the server:
 
-Enjoy browsing our delicious pizza selections, and feel free to get in touch with us through our contact form for any inquiries or orders!
+```bash
+node app.js
+```
+
+## Additional Notes
+
+- Ensure the server is running before opening the client file to see the dynamic data being fetched.
+- The client setup requires no additional build process as it runs directly from the HTML file.
+- Data is served from `server/data/mockData.js`, representing a mock database setup for the MVP phase.
+
+Feel free to explore, and modify the project to suit your needs and extend functionality!

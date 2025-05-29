@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">Instagram Clone</a>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Stories</a>
+            <a href="#">Discovery</a>
+        </div>
+    </nav>
+
+    <div class="feed">
+        <!-- Placeholder for dynamically populated posts -->
+        <div class="post" data-id="1" hidden>
+            <img src="placeholder.jpg" alt="Post Image/Video">
+            <div class="content">
+                <div class="user-profile">
+                    <img src="user-avatar.jpg" alt="User Avatar" class="story-circle">
+                    <span>Username</span>
+                </div>
+                <div class="actions">
+                    <img src="like-icon.png" alt="Like Button">
+                    <img src="comment-icon.png" alt="Comment Button">
+                    <button onclick="viewMore(1)">View More</button>
+                </div>
+                <div class="comment-section">
+                    <!-- Placeholder for comments -->
+                    <div class="comment">
+                        <img src="commenter-avatar.jpg" alt="Commenter Avatar">
+                        <div class="text">Sample comment text.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
