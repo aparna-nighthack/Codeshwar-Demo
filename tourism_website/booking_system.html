@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking System - Tourism Travels</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="features.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tourism Travels - Booking System</h1>
+    </header>
+
+    <main>
+        <section id="hotel-resort-booking">
+            <h2>Book Your Stay</h2>
+            <form id="hotelFilterForm">
+                <label for="priceRange">Price Range:</label>
+                <select id="priceRange" name="priceRange">
+                    <option value="all">All</option>
+                    <option value="low">Under $100</option>
+                    <option value="medium">$100 - $200</option>
+                    <option value="high">$200 and above</option>
+                </select>
+                
+                <label for="amenities">Amenities:</label>
+                <select id="amenities" name="amenities">
+                    <option value="all">All</option>
+                    <option value="pool">Swimming Pool</option>
+                    <option value="spa">Spa</option>
+                    <option value="gym">Gym</option>
+                    <option value="wifi">Free Wi-Fi</option>
+                </select>
+                
+                <button type="button" onclick="filterHotels()">Filter</button>
+            </form>
+            <div id="hotelsList">
+                <!-- Dynamic hotel listings -->
+            </div>
+        </section>
+
+        <section id="tour-packages">
+            <h2>Explore Tour Packages</h2>
+            <div id="packagesList">
+                <!-- Dynamic tour packages listings -->
+            </div>
+        </section>
+
+        <section id="travel-integration">
+            <h2>Book Flights and Trains</h2>
+            <form id="flightTrainForm">
+                <label for="departure">Departure City:</label>
+                <input type="text" id="departure" name="departure" required>
+
+                <label for="destination">Destination City:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="travelDate">Travel Date:</label>
+                <input type="date" id="travelDate" name="travelDate" required>
+
+                <button type="submit">Find Tickets</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tourism Travels. All rights reserved.</p>
+    </footer>
+</body>
+</html>

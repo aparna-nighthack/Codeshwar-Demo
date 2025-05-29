@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Tourism Travels</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="features.js"></script>
+</head>
+<body>
+    <header class="admin-header">
+        <h1>Admin Dashboard</h1>
+    </header>
+    
+    <nav class="admin-nav">
+        <ul>
+            <li><a href="#bookings">Manage Bookings</a></li>
+            <li><a href="#content">Manage Content</a></li>
+            <li><a href="#queries">User Queries</a></li>
+        </ul>
+    </nav>
+
+    <main class="admin-main">
+        <section id="bookings" class="admin-section">
+            <h2>Manage Bookings</h2>
+            <!-- Table of bookings -->
+            <table class="bookings-table">
+                <thead>
+                    <tr>
+                        <th>Booking ID</th>
+                        <th>User</th>
+                        <th>Destination</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Booking entries will be populated here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="content" class="admin-section">
+            <h2>Manage Content</h2>
+            <!-- Content management interface -->
+            <div class="content-management">
+                <button>Add New Destination</button>
+                <button>Edit Existing Content</button>
+                <button>Delete Content</button>
+            </div>
+        </section>
+
+        <section id="queries" class="admin-section">
+            <h2>User Queries</h2>
+            <!-- User queries management -->
+            <ul class="queries-list">
+                <li>
+                    <p class="query">Query #1: User question about booking process.</p>
+                    <button>Respond</button>
+                </li>
+                <li>
+                    <p class="query">Query #2: User question about package details.</p>
+                    <button>Respond</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="admin-footer">
+        <p>© 2023 Tourism Travels</p>
+    </footer>
+
+    <script>
+        // Add JavaScript logic for managing bookings, content, and queries
+    </script>
+</body>
+</html>
