@@ -1,5 +1,0 @@
-# Currently, there are no images stored in this directory.
-# Future updates to this directory may include:
-# - Promotional images
-# - Product images
-# - Event photos
