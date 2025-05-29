@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sling Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Artisanal Pizzas Made with Passion</h1>
+            <p>Fresh ingredients, hand-tossed dough, and unforgettable taste.</p>
+            <a href="#contact" class="btn-order">Order Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <h2>About Us</h2>
+        <p>Sling Pizza was born from a love of unconventional flavors and perfect crusts. We use locally sourced
+            ingredients and slow-fermented dough to create pizzas that stand out. Every bite is a mix of tradition and
+            bold experimentation.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2>Featured Pizzas</h2>
+        <div class="gallery-grid">
+            <figure>
+                <img src="https://curlytales.com/wp-content/uploads/2019/09/pizza-feature.jpg" alt="Spicy Pepperoni Blast">
+                <figcaption>Spicy Pepperoni Blast</figcaption>
+            </figure>
+            <figure>
+                <img src="https://bhukkadcompany.com/wp/wp-content/uploads/2024/06/21-Best-Pizzas-in-Mumbai-You-Must-Try-A-Pizza-Lovers-Paradise-1-710x473.png" alt="Truffle Mushroom Delight">
+                <figcaption>Truffle Mushroom Delight</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="reviews">
+            <blockquote>
+                "The best pizza in town! The crust is perfectly crispy." – Rahul K. <span>⭐⭐⭐⭐⭐</span>
+            </blockquote>
+            <blockquote>
+                "Never had flavors like this before. Sling Pizza is a game-changer!" – Priya M. <span>⭐⭐⭐⭐⭐</span>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Delivery & Locations Section -->
+    <section class="delivery" id="delivery">
+        <h2>Delivery Locations</h2>
+        <p>Delivery within 45 minutes or it's free!</p>
+        <select name="locations" id="delivery-areas">
+            <option value="mumbai">Mumbai (All Zones)</option>
+            <option value="delhi">Delhi (North & South)</option>
+            <option value="bangalore">Bangalore (Central & East)</option>
+            <option value="hyderabad">Hyderabad (Gachibowli & Hitech City)</option>
+        </select>
+    </section>
+
+    <!-- Contact & Order Form Section -->
+    <section class="contact" id="contact">
+        <h2>Contact & Order</h2>
+        <form id="order-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pizza">Select Pizza</label>
+            <select name="pizza" id="pizza">
+                <option value="margherita">Margherita</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="veggie">Veggie</option>
+            </select>
+
+            <label for="address">Delivery Address</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="instructions">Special Instructions</label>
+            <textarea id="instructions" name="instructions"></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <address>
+            123 Pizza Lane, Food City<br>
+            Phone: +91 XXXX-XXXX | Email: <a href="mailto:hello@slingpizza.com">hello@slingpizza.com</a>
+        </address>
+        <div class="social-media">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Swiggy</a>
+            <a href="#">Zomato</a>
+        </div>
+        <p>© 2024 Sling Pizza. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
