@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sling Pizza</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sling Pizza</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html#product-enquiry">Product Enquiry</a>
+    </nav>
+    <main>
+        <section id="contact-form">
+            <form id="contactForm" action="contact.html" method="post" aria-labelledby="contact-form-header">
+                <h2 id="contact-form-header">Contact Us</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required aria-required="true">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" pattern="\d{10}" required aria-required="true">
+
+                <label for="orderDetails">Order Details:</label>
+                <textarea id="orderDetails" name="orderDetails" placeholder="Order Details" required aria-required="true"></textarea>
+
+                <label for="inquiry">Specific Inquiry:</label>
+                <textarea id="inquiry" name="inquiry" placeholder="Any specific inquiries"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
