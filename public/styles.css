@@ -1,0 +1,206 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://imgmediagumlet.lbb.in/media/2020/11/5fa17943d511fc4b649fcfc2_1604417859096.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 150px 0;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .order-button {
+    background-color: #ff3333;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 80px 20px;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery .content {
+    padding: 15px;
+    text-align: left;
+}
+
+.gallery h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.gallery ul {
+    padding-left: 20px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.gallery .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.gallery-item:hover h3 {
+    color: #ff3333;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 20px;
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial-item .reviewer {
+    font-weight: bold;
+}
+
+.stars {
+    color: #ffd700;
+}
+
+/* Delivery & Locations */
+.delivery {
+    padding: 40px 20px;
+}
+
+.delivery .dropdown {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form button {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #ff3333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ff3333;
+    margin: 0 10px;
+}
