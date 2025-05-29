@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sling Pizza - Crafting Bold Flavors, One Slice at a Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Artisanal Pizzas Made with Passion</h1>
+            <p>Fresh ingredients, hand-tossed dough, and unforgettable taste.</p>
+            <a href="#contact-section" class="button order-now-btn">Order Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Sling Pizza was born from a love of unconventional flavors and perfect crusts. We use locally sourced ingredients and slow-fermented dough to create pizzas that stand out. Every bite is a mix of tradition and bold experimentation.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Featured Pizzas</h2>
+            <div class="gallery-grid">
+                <!-- Item 1 -->
+                <div class="gallery-item">
+                    <img src="https://curlytales.com/wp-content/uploads/2019/09/pizza-feature.jpg" alt="Spicy Pepperoni Blast">
+                    <div class="name">Spicy Pepperoni Blast</div>
+                    <p><strong>Non-Veg</strong></p>
+                    <ul>
+                        <li>Pepperoni</li>
+                        <li>Mozzarella</li>
+                        <li>Jalapeños</li>
+                        <li>Tomato Sauce</li>
+                        <li>Oregano</li>
+                    </ul>
+                    <p>₹399</p>
+                </div>
+                <!-- Item 2 -->
+                <div class="gallery-item">
+                    <img src="https://bhukkadcompany.com/wp/wp-content/uploads/2024/06/21-Best-Pizzas-in-Mumbai-You-Must-Try-A-Pizza-Lovers-Paradise-1-710x473.png" alt="Truffle Mushroom Delight">
+                    <div class="name">Truffle Mushroom Delight</div>
+                    <p><strong>Veg</strong></p>
+                    <ul>
+                        <li>Wild Mushrooms</li>
+                        <li>Truffle Oil</li>
+                        <li>Ricotta</li>
+                        <li>Arugula</li>
+                        <li>Parmesan</li>
+                    </ul>
+                    <p>₹599</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="gallery-item">
+                    <img src="https://content.jdmagicbox.com/comp/def_content/pizza_outlets/default-pizza-outlets-13.jpg" alt="Chicago Deep Dish">
+                    <div class="name">Chicago Deep Dish</div>
+                    <p><strong>Veg</strong></p>
+                    <ul>
+                        <li>Buttery Crust</li>
+                        <li>Thick Tomato Sauce</li>
+                        <li>Bell Peppers</li>
+                        <li>Onions</li>
+                        <li>Extra Cheese</li>
+                    </ul>
+                    <p>₹699</p>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="gallery-item">
+                    <img src="https://imgmediagumlet.lbb.in/media/2023/08/64e853b840d6b86d20757e36_1692947384757.jpg" alt="Italian Classic">
+                    <div class="name">Italian Classic</div>
+                    <p><strong>Non-Veg</strong></p>
+                    <ul>
+                        <li>Prosciutto</li>
+                        <li>Artichokes</li>
+                        <li>Olives</li>
+                        <li>Sun-dried Tomatoes</li>
+                        <li>Basil</li>
+                    </ul>
+                    <p>₹499</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"The best pizza in town! The crust is perfectly crispy." <span>⭐⭐⭐⭐⭐</span> – Rahul K.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Never had flavors like this before. Sling Pizza is a game-changer!" <span>⭐⭐⭐⭐⭐</span> – Priya M.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery & Locations -->
+    <section class="delivery-locations">
+        <div class="container">
+            <h2>Delivery & Locations</h2>
+            <select id="delivery-locations" class="delivery-dropdown">
+                <option value="mumbai">Mumbai (All Zones)</option>
+                <option value="delhi">Delhi (North & South)</option>
+                <option value="bangalore">Bangalore (Central & East)</option>
+                <option value="hyderabad">Hyderabad (Gachibowli & Hitech City)</option>
+            </select>
+            <p>Delivery within 45 minutes or it's free!</p>
+        </div>
+    </section>
+
+    <!-- Contact & Order Form -->
+    <section class="contact-form" id="contact-section">
+        <div class="container">
+            <h2>Contact & Order</h2>
+            <form id="order-form">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <select id="pizza-selection" name="pizza-selection">
+                    <option value="margherita">Margherita</option>
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="veggie">Veggie</option>
+                </select>
+                <input type="text" id="address" name="address" placeholder="Delivery Address" required>
+                <textarea id="instructions" name="instructions" placeholder="Special Instructions"></textarea>
+                <button type="submit" class="button">Place Order</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Address: 123 Pizza Lane, Food City</p>
+            <p>Contact: Phone: +91 XXXX-XXXX | Email: <a href="mailto:hello@slingpizza.com">hello@slingpizza.com</a></p>
+            <div class="social-icons">
+                <a href="#">Instagram</a> |
+                <a href="#">Facebook</a> |
+                <a href="#">Swiggy/Zomato</a>
+            </div>
+            <p>© 2024 Sling Pizza. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
