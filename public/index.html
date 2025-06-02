@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container text-center">
+            <h1>Meet [Agent Name] – Your AI-Powered Problem Solver</h1>
+            <p>From automating workflows to answering complex queries, our AI adapts to your needs with precision.</p>
+            <div class="d-flex justify-content-center">
+                <button id="try-demo-btn" class="btn btn-primary mx-2">Try Demo</button>
+                <button id="see-usecases-btn" class="btn btn-secondary mx-2">See Use Cases</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem/Solution Statement -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2>Problem/Solution</h2>
+            <p>Tired of repetitive tasks? Struggling with data overload?</p>
+            <ul>
+                <li>24/7 availability</li>
+                <li>No-code integration</li>
+                <li>Real-time insights</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Capabilities Showcase -->
+    <section class="carousel slide carousel-fade" id="carouselCapabilities">
+        <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+                <h3>Natural Language Processing</h3>
+                <p>Understands and responds like a human.</p>
+            </div>
+            <div class="carousel-item text-center">
+                <h3>Task Automation</h3>
+                <p>Handles scheduling, emails, and workflows.</p>
+            </div>
+            <div class="carousel-item text-center">
+                <h3>Data Analysis</h3>
+                <p>Transforms raw data into actionable reports.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section id="use-cases-section" class="use-cases">
+        <div class="container">
+            <h2>Use Cases</h2>
+            <div class="row">
+                <div class="col-md-4 use-case-card">
+                    <i class="bi bi-heart"></i>
+                    <h4>Healthcare</h4>
+                    <p>AI-assisted patient triage.</p>
+                </div>
+                <div class="col-md-4 use-case-card">
+                    <i class="bi bi-currency-exchange"></i>
+                    <h4>Finance</h4>
+                    <p>Fraud detection in real-time.</p>
+                </div>
+                <div class="col-md-4 use-case-card">
+                    <i class="bi bi-cart-check"></i>
+                    <h4>E-commerce</h4>
+                    <p>Personalized shopping assistant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiators -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2>Differentiators</h2>
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>AI Agent</th>
+                        <th>Competitors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Speed</td>
+                        <td>Fast</td>
+                        <td>Average</td>
+                    </tr>
+                    <tr>
+                        <td>Accuracy</td>
+                        <td>High</td>
+                        <td>Moderate</td>
+                    </tr>
+                    <tr>
+                        <td>Customization</td>
+                        <td>Extensive</td>
+                        <td>Limited</td>
+                    </tr>
+                </tbody>
+            </table>
+            <blockquote class="mt-4">
+                <p>"Reduced our workflow time by 70%!" - Beta User</p>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo-section" class="py-5">
+        <div class="container text-center">
+            <h2>Live Demo</h2>
+            <p>Interact with a stripped-down version of our AI.</p>
+        </div>
+    </section>
+
+    <!-- Trust & Security -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2>Trust & Security</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How is my data protected?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We adhere to GDPR and ISO standards.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>Resources: Docs, API access, GitHub</p>
+            <p>Contact: Email, Calendly for inquiries</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
