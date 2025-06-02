@@ -1,0 +1,133 @@
+
+/* Main Color Scheme and Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #0d1b2a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e0f2f1;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.pexels.com/photos/17887855/pexels-photo-17887855.jpeg?auto=compress&cs=tinysrgb&h=350') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.hero .btn {
+    margin-top: 2rem;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #00bcd4;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #008ba3;
+    cursor: pointer;
+}
+
+/* Interactive Carousel */
+.carousel {
+    margin: 2rem 0;
+}
+
+.carousel-item {
+    text-align: center;
+    color: #00bcd4;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #00bcd4;
+    border-radius: 50%;
+}
+
+/* Comparison Table */
+.table {
+    background-color: #1b263b;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.table th, .table td {
+    color: #00bcd4;
+    border: 1px solid #333;
+}
+
+/* Use Cases Section */
+.use-cases {
+    padding: 4rem 0;
+}
+
+.use-case-card {
+    background-color: #1b263b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    color: #e1eaea;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.use-case-card i {
+    font-size: 2rem;
+    color: #00bcd4;
+    margin-bottom: 1rem;
+}
+
+/* Micro-Interactions */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+}
