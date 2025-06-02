@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/17153209/pexels-photo-17153209.jpeg?auto=compress&cs=tinysrgb&h=350');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+/* CTA Buttons */
+.cta-buttons .btn {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1rem;
+}
+
+/* Capabilities Showcase */
+.capability-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.capability-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.capability-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #004085;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+}
