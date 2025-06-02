@@ -1,0 +1,191 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0f29;
+    color: #e1e1e6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: #00f9ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0ef;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #0a0f29;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #0ef !important;
+}
+
+.nav-link {
+    color: #e1e1e6 !important;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #00f9ff !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://t3.ftcdn.net/jpg/11/26/64/08/360_F_1126640836_jXDHuPw96eERuBP9DLoPFOjLE8B5kJoa.jpg') center center/cover no-repeat;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #00f9ff;
+    border: none;
+    color: #0a0f29;
+    padding: 10px 20px;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #0ef;
+}
+
+/* Carousel Styles */
+.carousel-item {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(10, 15, 41, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Card Styles */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title,
+.card-text {
+    color: #e1e1e6;
+}
+
+/* Transparent Card for Problem-Solution */
+.transparent-card {
+    background: rgba(10, 15, 41, 0.6);
+    color: #e1e1e6;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.table {
+    color: #e1e1e6;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table th,
+.table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+
+.table th {
+    background: #0a0f29;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(10, 15, 41, 0.8);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #00f9ff;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0ef;
+}
+
+.btn-secondary {
+    background-color: #e1e1e6;
+    color: #0a0f29;
+}
+
+.btn-secondary:hover {
+    background-color: #d1d1d6;
+}
+
+/* Micro-interactions & Animations */
+.hover-zoom:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .carousel-item {
+        height: 300px;
+    }
+    
+    .nav-link {
+        margin-right: 10px;
+    }
+}
