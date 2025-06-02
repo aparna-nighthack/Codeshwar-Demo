@@ -1,0 +1,178 @@
+
+/* Import Bootstrap for responsive design consistency */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #001f3f; /* Deep blue */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #00ffcc; /* Neon accent */
+}
+
+a:hover {
+    color: #33ffdd;
+    transition: color 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: url('https://images.pexels.com/photos/17887855/pexels-photo-17887855.jpeg?auto=compress&cs=tinysrgb&h=350') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #cccccc;
+}
+
+.btn-hero {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    color: #001f3f;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: #33ffdd;
+}
+
+/* Problem/Solution Statement */
+.problem-solution {
+    padding: 60px 0;
+    background-color: #005073; /* Darker blue */
+    text-align: center;
+}
+
+.problem-solution h2, .problem-solution p {
+    margin-bottom: 20px;
+}
+
+/* Capabilities Showcase */
+.capabilities {
+    padding: 60px 0;
+    background-color: #007399;
+}
+
+.capabilities-carousel {
+    margin-top: 20px;
+}
+
+.capability-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Use Cases */
+.use-cases {
+    padding: 60px 0;
+    background-color: #008fb3;
+}
+
+.use-case-card {
+    margin-bottom: 20px;
+    background-color: #001f3f;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.use-case-card:hover {
+    transform: scale(1.05);
+}
+
+/* Differentiators */
+.differentiators {
+    padding: 60px 0;
+    background-color: #33ccff;
+    text-align: center;
+}
+
+.comparison-table {
+    width: 100%;
+    margin: 20px 0;
+    color: #001f3f;
+    background-color: #ffffff;
+}
+
+.testimonial {
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+/* Integration & Tech Stack */
+.tech-stack {
+    padding: 60px 0;
+    background-color: #00bff2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tech-stack img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Demo Section */
+.demo-section {
+    padding: 60px 0;
+    background-color: #4dd2ff;
+    text-align: center;
+}
+
+.demo-video {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+/* Trust & Security */
+.trust-security {
+    padding: 60px 0;
+    background-color: #33ccff;
+}
+
+.faq-accordion {
+    margin: 20px;
+    background-color: #005073; 
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    background-color: #001f3f;
+    color: #cccccc;
+    text-align: center;
+}
+
+.footer a {
+    color: #00ffcc;
+}
+
+.footer a:hover {
+    color: #33ffdd;
+}
