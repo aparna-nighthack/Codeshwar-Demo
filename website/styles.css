@@ -1,0 +1,137 @@
+
+/* Hero Section */
+.hero-section {
+    background: url(../assets/hero-animation.mp4) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    margin: 10px;
+}
+
+/* Interactive Carousel */
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Industry-Specific Use Cases */
+.use-case-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.use-case-card:hover {
+    transform: translateY(-5px);
+}
+
+.use-case-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Testimonials */
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+.testimonial::before, .testimonial::after {
+    content: '"';
+    font-size: 2rem;
+    color: #ccc;
+}
+
+/* Comparison Table */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.comparison-table th, .comparison-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.comparison-table th {
+    background-color: #f8f9fa;
+}
+
+/* Demo Section */
+.demo-section {
+    background-color: #f1f3f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Trust & Security Section */
+.trust-section {
+    padding: 50px 0;
+    background-color: #e9ecef;
+}
+
+.faq-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h5 {
+    margin: 0;
+    padding: 15px;
+    color: #007bff;
+}
+
+.faq-item p {
+    margin: 0;
+    padding: 0 15px 15px;
+    color: #212529;
+}
+
+/* Custom Hover Effects */
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Mobile First Optimizations */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .demo-section {
+        padding: 30px 0;
+    }
+}
