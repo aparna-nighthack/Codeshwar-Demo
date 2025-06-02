@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0a1a2e;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+a {
+  color: #00d1d1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00f5ff;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://images.pexels.com/photos/17887855/pexels-photo-17887855.jpeg?auto=compress&cs=tinysrgb&h=350');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero .headline {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero .subtext {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  border-radius: 50px;
+}
+
+.hero .btn-demo {
+  background-color: #00d1d1;
+  border: none;
+}
+
+.hero .btn-use-cases {
+  background-color: #ff4d4d;
+  border: none;
+}
+
+/* Call-to-Action Buttons Hover Effects */
+.hero .btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Interactive Carousel */
+.carousel {
+  margin: 2rem 0;
+}
+
+.carousel-item {
+  text-align: center;
+  color: #ffffff;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+/* Cards */
+.card {
+  background-color: #14274e;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: #00d1d1;
+}
+
+/* Problem/Solution Section */
+.problem-solution {
+  padding: 3rem 1rem;
+  background-color: #0f3460;
+}
+
+.problem-solution h2 {
+  color: #00d1d1;
+  margin-bottom: 1rem;
+}
+
+/* Differentiators: Comparison Table */
+.table {
+  color: #ffffff;
+  width: 100%;
+  margin-top: 3rem;
+  background-color: #14274e;
+}
+
+.table th, .table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.table th {
+  background-color: #00d1d1;
+}
+
+/* Micro-Interactions */
+.hover-effect:hover {
+  color: #ff4d4d;
+  transition: all 0.3s ease;
+}
+
+.animated-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Mobile-First */
+@media (max-width: 768px) {
+  .hero .headline {
+    font-size: 2.5rem;
+  }
+
+  .hero .subtext {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #0a1a2e;
+  padding: 2rem 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer a {
+  color: #00d1d1;
+}
+
+footer a:hover {
+  color: #00f5ff;
+}
