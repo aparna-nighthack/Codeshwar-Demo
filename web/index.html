@@ -1,0 +1,250 @@
+*** Begin Patch
+*** Update File: web/index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NovaAI - AI-Powered Problem Solver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="web/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NovaAI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#capabilities">Capabilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem-solution">Problem & Solution</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#use-cases">Use Cases</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#differentiators">Differentiators</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#integration">Integration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trust-security">Trust & Security</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center bg-dark text-white py-5" style="background-image: url('https://t3.ftcdn.net/jpg/11/26/64/08/360_F_1126640836_jXDHuPw96eERuBP9DLoPFOjLE8B5kJoa.jpg'); background-size: cover;">
+        <div class="container">
+            <h1 class="display-4">Meet NovaAI – Your AI-Powered Problem Solver</h1>
+            <p class="lead">From automating workflows to answering complex queries, our AI adapts to your needs with precision.</p>
+            <a href="#demo" class="btn btn-primary mx-2">Try Demo</a>
+            <a href="#use-cases" class="btn btn-secondary mx-2">See Use Cases</a>
+        </div>
+    </section>
+
+    <!-- Capabilities Showcase -->
+    <section id="capabilities" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Capabilities Showcase</h2>
+            <div id="capabilitiesCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.shutterstock.com/image-photo/ai-agents-business-analyze-businesses-600nw-2577839733.jpg" class="d-block w-100 img-fluid" alt="Natural Language Processing">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Natural Language Processing</h5>
+                            <p>Understands and responds like a human.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://framerusercontent.com/images/YBxYK0sSKVIsw3pcqkbU82Sz5d4.jpeg" class="d-block w-100 img-fluid" alt="Task Automation">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Task Automation</h5>
+                            <p>Handles scheduling, emails, and workflows.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.prod.website-files.com/65bbc048baf191b567245ec1/6656c7c7c106ba07437aa244_An%20image%20illustrating%20the%20concept%20of%20building%20AI%20agent%20applications.%20T.webp" class="d-block w-100 img-fluid" alt="Data Analysis">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Data Analysis</h5>
+                            <p>Transforms raw data into actionable reports.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#capabilitiesCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#capabilitiesCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem -> Solution -->
+    <section id="problem-solution" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Tired of repetitive tasks? Struggling with data overload?</h2>
+            <p>AI’s Role: How NovaAI Solves It:</p>
+            <ul class="list-unstyled">
+                <li>• Always-on assistance – 24/7 reliability</li>
+                <li>• Plug-and-play setup – No-code, no hassle</li>
+                <li>• Instant clarity – Real-time insights, zero guesswork</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section id="use-cases" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Use Cases</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Healthcare</h5>
+                            <p class="card-text">AI-assisted patient triage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Finance</h5>
+                            <p class="card-text">Fraud detection in real-time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">E-commerce</h5>
+                            <p class="card-text">Personalized shopping assistant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiators -->
+    <section id="differentiators" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Differentiators</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>NovaAI</th>
+                        <th>Competitors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Speed</td>
+                        <td>High</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>Accuracy</td>
+                        <td>95%</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>Customization</td>
+                        <td>Flexible</td>
+                        <td>Limited</td>
+                    </tr>
+                </tbody>
+            </table>
+            <blockquote class="blockquote text-center mt-4">
+                <p class="mb-0">"Reduced our workflow time by 70%!"</p>
+                <footer class="blockquote-footer">Beta User</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Integration & Tech Stack -->
+    <section id="integration" class="py-5">
+        <div class="container text-center">
+            <h2>Integration & Tech Stack</h2>
+            <p>Supported Platforms:</p>
+            <button class="btn btn-light mx-2">Slack</button>
+            <button class="btn btn-light mx-2">Salesforce</button>
+            <button class="btn btn-light mx-2">Zapier</button>
+            <p class="mt-4">Tech Badges:</p>
+            <span class="badge bg-primary">Powered by GPT-4</span>
+            <span class="badge bg-info">Secure AWS Cloud</span>
+            <span class="badge bg-success">SOC 2 Certified</span>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="bg-dark text-white py-5" style="background-image: url('https://t3.ftcdn.net/jpg/11/26/64/08/360_F_1126640836_jXDHuPw96eERuBP9DLoPFOjLE8B5kJoa.jpg'); background-size: cover;">
+        <div class="container text-center">
+            <h2>Live Demo</h2>
+            <p>Interact with NovaAI below:</p>
+            <!-- Insert chat widget here -->
+            <div class="chat-widget-placeholder text-dark bg-light rounded p-4">
+                <p>This is where the chat widget will appear.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Security -->
+    <section id="trust-security" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Trust & Security</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How is my data protected?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Your data is protected using top-tier security protocols and standards.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <span class="badge bg-info">GDPR Compliant</span>
+                <span class="badge bg-success">ISO Certified</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Docs</a></li>
+                        <li><a href="#" class="text-white">API Access</a></li>
+                        <li><a href="#" class="text-white">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: support@novaai.com</p>
+                    <p><a href="#" class="text-white">Calendly</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="web/js/scripts.js"></script>
+
+</body>
+</html>
+```
+*** End Patch
