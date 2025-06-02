@@ -1,0 +1,216 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff; /* Since main color scheme is deep blue with neon accents */
+    background-color: #1a1a2e;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #0f3460;
+    color: #e94560;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e94560;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+/* CTA Buttons */
+.btn-primary {
+    background-color: #e94560;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0f3460;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #16213e;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #e94560;
+    color: #ffffff;
+}
+
+/* Capabilities Showcase */
+.capabilities-showcase .carousel-item {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.capabilities-showcase .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(15, 34, 53, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Transparent Cards */
+.transparent-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e94560;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Problem → Solution Section */
+.problem-solution {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.problem-solution .btn {
+    margin-top: 20px;
+}
+
+.problem-solution .transparent-card {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Use Cases */
+.use-cases {
+    padding: 40px 0;
+    background-color: #0f3460;
+}
+
+.use-case-card {
+    border: none;
+    background-color: #e94560;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.use-case-card:hover {
+    transform: scale(1.02);
+}
+
+.use-case-card .card-body {
+    padding: 20px;
+}
+
+/* Differentiators */
+.differentiators {
+    padding: 40px 0;
+}
+
+.differentiators table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.differentiators th,
+.differentiators td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #cccccc;
+}
+
+.differentiators th {
+    background-color: #16213e;
+    color: #ffffff;
+}
+
+.differentiators td {
+    background-color: #f0f0f0;
+}
+
+/* Integration & Tech Stack */
+.integration-tech-stack {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.integration-tech-stack img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* Demo Section */
+.demo-section {
+    background-image: url('https://t3.ftcdn.net/jpg/11/26/64/08/360_F_1126640836_jXDHuPw96eERuBP9DLoPFOjLE8B5kJoa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.demo-section .chat-widget {
+    background-color: rgba(15, 34, 53, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.demo-section .chat-widget input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Trust & Security */
+.trust-security {
+    padding: 40px 0;
+}
+
+.trust-security .accordion-button {
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer {
+    background-color: #0f3460;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #e94560;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .hero-section,
+    .problem-solution,
+    .use-cases,
+    .differentiators,
+    .integration-tech-stack,
+    .demo-section,
+    .trust-security,
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
