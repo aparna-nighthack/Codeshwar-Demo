@@ -1,0 +1,185 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C1E2C;
+    color: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(12, 30, 44, 0.8), rgba(12, 30, 44, 0.8)), url('https://t3.ftcdn.net/jpg/11/26/64/08/360_F_1126640836_jXDHuPw96eERuBP9DLoPFOjLE8B5kJoa.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00E5FF;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #B0E0E6;
+}
+
+.btn-primary, .btn-secondary {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #00E5FF;
+    color: #0C1E2C;
+}
+
+.btn-primary:hover {
+    background-color: #009acd;
+}
+
+.btn-secondary {
+    background-color: #FF009D;
+    color: #0C1E2C;
+}
+
+.btn-secondary:hover {
+    background-color: #c70074;
+}
+
+.carousel-item {
+    position: relative;
+    height: 500px;
+    color: #FFFFFF;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(12, 30, 44, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.problem-solution {
+    background-color: #001F3F;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.problem-solution p {
+    font-size: 1.5em;
+    color: #B0E0E6;
+}
+
+.card {
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #112B3C;
+}
+
+.card h5 {
+    color: #00E5FF;
+}
+
+.card p {
+    color: #E5E5E5;
+}
+
+.comparison-table {
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.comparison-table th, .comparison-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    color: #E5E5E5;
+}
+
+.comparison-table th {
+    background-color: #001F3F;
+    color: #FFFFFF;
+}
+
+.testimonials {
+    margin: 50px 0;
+    background-color: #001F3F;
+    padding: 30px;
+}
+
+.testimonial-item {
+    margin-bottom: 20px;
+    color: #B0E0E6;
+    font-style: italic;
+}
+
+.platform-icons img {
+    margin: 10px;
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.platform-icons img:hover {
+    transform: scale(1.1);
+}
+
+.faq-accordion .card-header {
+    background-color: #112B3C;
+    color: #00E5FF;
+    cursor: pointer;
+}
+
+.faq-accordion .card-body {
+    background-color: #0C1E2C;
+    color: #E5E5E5;
+}
+
+.footer {
+    background-color: #0C1E2C;
+    padding: 30px;
+    text-align: center;
+    color: #B0E0E6;
+}
+
+.footer a {
+    color: #00E5FF;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #FF009D;
+}
