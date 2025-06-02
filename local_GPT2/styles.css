@@ -1,0 +1,180 @@
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Bootstrap Overrides */
+.btn-custom {
+    background-color: #4b8acc;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #3577a8;
+}
+
+.container,
+.container-fluid {
+    max-width: 1200px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #282c34, #3e454e);
+    height: 100vh;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section .hero-btn {
+    margin: 5px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+/* Capabilities Showcase */
+.capabilities-carousel {
+    background-color: #e6e9f2;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.carousel-item {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4b8acc;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Problem → Solution */
+.problem-solution {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.problem-solution h2 {
+    text-align: center;
+    color: #5a5f69;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Use Cases Cards */
+.use-cases {
+    padding: 4rem 0;
+    background-color: #f2f4f7;
+}
+
+.use-case-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+
+.use-case-card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.use-case-card h5 {
+    margin-top: 15px;
+    color: #4b8acc;
+    font-size: 1.25rem;
+}
+
+/* Comparison Table */
+.comparison-table {
+    margin: 3rem 0;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.comparison-table th {
+    background-color: #f5f5f9;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    background-color: #3e454e;
+    color: #cfd1d6;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #77b8f2;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    color: #4b8acc;
+}
+
+/* Animations & Effects */
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hover-grow:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
