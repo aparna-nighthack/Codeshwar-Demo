@@ -1,0 +1,118 @@
+
+/* Import Bootstrap CSS */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #e0e1dd;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJz0gV_aVLAXxhqEzD-Ziu_tGjnM8OpxfoA&s');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.btn-custom {
+    background-color: #0284c7;
+    border-color: #0284c7;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #025899;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(26, 26, 46, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Use Cases Section */
+.use-cases .card {
+    background-color: #2a2a49;
+    color: #e0e1dd;
+    margin-bottom: 20px;
+}
+
+.use-cases .card img {
+    width: 50px;
+    object-fit: contain;
+}
+
+.use-cases .card-title {
+    margin-top: 0.75rem;
+}
+
+/* Differentiators */
+.comparison-table {
+    width: 100%;
+    margin: 30px 0;
+    background-color: #2a2a49;
+    color: #e0e1dd;
+}
+
+.comparison-table th, 
+.comparison-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* FAQ Accordion */
+.faq-accordion .accordion-button {
+    background-color: #2a2a49;
+    color: #e0e1dd;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a2e;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .btn-custom {
+        padding: 10px 20px;
+    }
+}
