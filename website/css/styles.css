@@ -1,0 +1,173 @@
+
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #0d1b2a; /* Futuristic dark blue */
+}
+
+/* Links to Index.html for consistent style */
+@import 'index.html';
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding: 0 30px;
+}
+
+/* Hero Section */
+.hero {
+    background: #1b263b;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #f0a500; /* Neon Yellow */
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #adb5bd;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    background-color: #f0a500;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ffba08;
+}
+
+/* Use Case Cards */
+.use-case-card {
+    background: #1b263b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.use-case-card:hover {
+    transform: translateY(-5px);
+}
+
+.use-case-card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.use-case-card h3 {
+    color: #fff;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.use-case-card p {
+    color: #adb5bd;
+    padding: 0 15px 20px;
+}
+
+/* Capabilities Carousel */
+.carousel-item img {
+    max-height: 500px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    opacity: 0.7;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    opacity: 1;
+}
+
+/* Problem to Solution Section */
+.problem-solution {
+    padding: 50px 0;
+    background: #14213d; /* Darker blue */
+}
+
+.problem-solution h2 {
+    color: #fca311;
+    margin-bottom: 30px;
+}
+
+.problem-solution ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.problem-solution li {
+    padding: 10px 0;
+    color: #f1faee;
+}
+
+/* Footer */
+.footer {
+    background: #1b263b;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #adb5bd;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer p {
+    color: #adb5bd;
+    margin-top: 20px;
+}
+
+/* Hover Effects */
+.btn,
+.footer a {
+    transition: all 0.3s ease;
+}
+
+.btn:hover,
+.footer a:hover {
+    color: #ffba08;
+    transform: scale(1.05);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .use-case-card h3,
+    .use-case-card p {
+        font-size: 0.9rem;
+    }
+}
