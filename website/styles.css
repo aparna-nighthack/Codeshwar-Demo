@@ -1,0 +1,205 @@
+
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f9fa;
+    background-color: #001f3f; /* Deep blue background */
+}
+
+a {
+    color: #00d1b2; /* Neon accent */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00aeef; /* Brighter neon accent on hover */
+}
+
+/* Container and Row for Layout */
+.container, .container-fluid {
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Micro-Interactions */
+.card:hover,
+.btn:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px;
+    text-align: center;
+    background-color: #02274f;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #00d1b2;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #d1ecf1;
+}
+
+.hero .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00d1b2;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Capabilities Showcase */
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel-item {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Problem → Solution */
+.problem-solution {
+    padding: 50px;
+}
+
+.problem-solution .card {
+    background-color: rgba(0, 31, 63, 0.8);
+    border: none;
+    color: #00d1b2;
+    margin-bottom: 20px;
+}
+
+/* Use Cases */
+.use-cases {
+    padding: 50px;
+}
+
+.use-cases .card {
+    background-color: #004d7a;
+    border: none;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.use-cases .card i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00d1b2;
+}
+
+/* Differentiators */
+.differentiators {
+    padding: 50px;
+}
+
+.differentiators table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #004d7a;
+    border-collapse: collapse;
+}
+
+.differentiators th,
+.differentiators td {
+    border: 1px solid #02274f;
+    padding: 8px;
+    color: #fff;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px;
+}
+
+.testimonials blockquote {
+    border-left: 10px solid #00d1b2;
+    padding-left: 20px;
+    color: #00d1b2;
+}
+
+/* Integration & Tech Stack */
+.integration {
+    padding: 50px;
+}
+
+.integration .badge {
+    background-color: #007bff;
+    margin: 5px;
+    color: #fff;
+}
+
+/* Demo Section */
+.demo {
+    background-image: url('https://t3.ftcdn.net/jpg/11/26/64/08/360_F_1126640836_jXDHuPw96eERuBP9DLoPFOjLE8B5kJoa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.demo .chat-widget {
+    background-color: rgba(0, 31, 63, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Trust & Security */
+.trust {
+    padding: 50px;
+}
+
+.trust .accordion-button:not(.collapsed) {
+    background-color: #00d1b2;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    background-color: #02274f;
+    text-align: center;
+    color: #f8f9fa;
+}
+
+.footer a {
+    color: #00d1b2;
+}
+
+.footer a:hover {
+    color: #00aeef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+}
